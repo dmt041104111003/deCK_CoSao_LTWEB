@@ -1,0 +1,50 @@
+﻿@model IEnumerable<PhanLoaiPhu>
+@foreach (var i in Model)
+{
+    <li><a style="cursor:pointer" onclick="loadData('@i.TenPhanLoaiPhu')">@i.TenPhanLoaiPhu</a></li>
+
+
+}
+
+<script>
+    function loadData(MaSanPham) {
+        $.ajax({
+            url: '@Url.Action("GetData", "Home")',
+            type: 'GET',
+            data: { MaSanPham: MaSanPham },
+            success: function (response) {
+                console.log(response);
+                if (response.length > 0) {
+                    let tableHtml = `  <div class="amado-pro-catagory clearfix">`;
+                    response.forEach(product => {
+                        tableHtml += `
+
+     
+        <div class="single-products-catagory clearfix">
+            <a href="shop.html">
+
+                <img src="/tem20/${product.anhDaiDien}" alt="" >
+    
+                <div class="hover-content">
+                    <div class="line"></div>
+             
+                    <h4>${product.tenSanPham}</h4>
+                </div>
+            </a>
+        </div>
+
+                            `;
+                    });
+
+    tableHtml += ` </div>`;
+                    $('#result').html(tableHtml);
+                } else {
+                    $('#result').html('<p>Không có sản phẩm nào được tìm thấy.</p>');
+                }
+            },
+            error: function () {
+                $('#result').html('<p>Đã xảy ra lỗi khi tải dữ liệu.</p>');
+            }
+        });
+    }
+</script>

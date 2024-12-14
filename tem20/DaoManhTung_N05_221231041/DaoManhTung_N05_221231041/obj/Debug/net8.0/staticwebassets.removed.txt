@@ -1,0 +1,10 @@
+E:\tem20\DaoManhTung_N05_221231041\DaoManhTung_N05_221231041\wwwroot\tem17\fonts\icomoon\demo.html
+E:\tem20\DaoManhTung_N05_221231041\DaoManhTung_N05_221231041\wwwroot\tem17\fonts\icomoon\demo-files\demo.css
+E:\tem20\DaoManhTung_N05_221231041\DaoManhTung_N05_221231041\wwwroot\tem17\fonts\icomoon\demo-files\demo.js
+E:\tem20\DaoManhTung_N05_221231041\DaoManhTung_N05_221231041\wwwroot\tem17\fonts\icomoon\fonts\icomoon.eot
+E:\tem20\DaoManhTung_N05_221231041\DaoManhTung_N05_221231041\wwwroot\tem17\fonts\icomoon\fonts\icomoon.svg
+E:\tem20\DaoManhTung_N05_221231041\DaoManhTung_N05_221231041\wwwroot\tem17\fonts\icomoon\fonts\icomoon.ttf
+E:\tem20\DaoManhTung_N05_221231041\DaoManhTung_N05_221231041\wwwroot\tem17\fonts\icomoon\fonts\icomoon.woff
+E:\tem20\DaoManhTung_N05_221231041\DaoManhTung_N05_221231041\wwwroot\tem17\fonts\icomoon\Read Me.txt
+E:\tem20\DaoManhTung_N05_221231041\DaoManhTung_N05_221231041\wwwroot\tem17\fonts\icomoon\selection.json
+E:\tem20\DaoManhTung_N05_221231041\DaoManhTung_N05_221231041\wwwroot\tem17\fonts\icomoon\style.css

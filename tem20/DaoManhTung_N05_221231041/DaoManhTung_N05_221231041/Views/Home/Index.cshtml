@@ -1,0 +1,26 @@
+﻿@model IEnumerable<SanPham>
+@{
+    ViewData["Title"] = "Home Page";
+    Layout = "~/Views/Shared/_Layout1.cshtml";
+}
+
+<div class="amado-pro-catagory clearfix" id="result">
+    @foreach (var i in Model)
+    {
+        <!-- Single Catagory -->
+        <div class="single-products-catagory clearfix">
+            <a href="shop.html">
+
+                <a asp-action="Details" asp-route-id="@i.MaSanPham"><img src="@Url.Content("../tem20/" + @i.AnhDaiDien)" alt=""></a>
+             
+                <!-- Hover Content -->
+                <div class="hover-content">
+                    <div class="line"></div>
+                    <p>@i.DonGiaBanNhoNhat</p>
+                    <h4>@i.TenSanPham</h4>
+                </div>
+            </a>
+        </div>
+    }
+
+</div>
